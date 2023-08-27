@@ -1,0 +1,66 @@
+/* Home page style */ 
+#home-body {
+	background-color: pink;
+	border-style: solid;
+	border-width: thick;
+	margin: 50px;
+}
+#home-paragraph {
+	font-family: "Helvetica";
+	font-style: italic;
+	margin-top: 0px;
+}
+
+/* Center contents of the Home page */
+.home-container {
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+	flex-direction: column; 
+	height: 100vh;
+}
+
+/* About layout */
+.about-container {
+	display: flex;
+	justify-content: center;
+	align-items: left;
+	flex-direction: column; 
+	height: 100vh;
+	margin-left: 100px;
+	font-family: "Helvetica";
+}
+
+h1 {
+	font-family: "Monaco";
+	margin-bottom: 5px;
+}
+
+p {
+	margin-top: 0px;
+}
+
+ul {
+	list-style-type: circle;
+	font-family: "Helvetica";
+	margin-top: 0px;
+}
+
+/* Button style */
+.button-group button {
+	background-color: pink;
+	border: 1px solid black;
+	color: black;
+	padding: 10px;
+	cursor: pointer;
+}
+.button-group button:hover {
+	background-color: black;
+	color: pink;
+}
+.button-group button:disabled {
+	cursor: not-allowed;
+	background-color: pink;
+	color: black;
+	opacity: 0.5;
+}
