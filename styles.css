@@ -27,7 +27,8 @@
 	align-items: left;
 	flex-direction: column; 
 	height: 100vh;
-	margin: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
 	font-family: "Helvetica";
 }
 
