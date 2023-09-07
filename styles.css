@@ -1,14 +1,23 @@
 /* Home page style */ 
 #home-body {
-	background-color: pink;
+	background-image: url("cherry-blossoms.png"); 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover; 
+	/* box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.4); */
+	/* box-shadow: inset 0 0 0 100vw rgba(255,255,255, 0.3); */
+	box-shadow: inset 0 0 0 100vw rgba(110, 48, 75,0.4);
+	/* background-color: pink; */ 
 	border-style: solid;
 	border-width: thick;
+	border-color: white;
 	margin: 50px;
 }
 #home-paragraph {
 	font-family: "Helvetica";
 	font-style: italic;
 	margin-top: 0px;
+	font-size: 22px;
 }
 
 /* Center contents of the Home page */
@@ -35,10 +44,13 @@
 h1 {
 	font-family: "Monaco";
 	margin-bottom: 5px;
+	color: white;
+	font-size: 72px;
 }
 
 p {
 	margin-top: 0px;
+	color: white;
 }
 
 ul {
@@ -49,19 +61,20 @@ ul {
 
 /* Button style */
 .button-group button {
-	background-color: pink;
+	background-color: white;
 	border: 1px solid black;
 	color: black;
 	padding: 10px;
 	cursor: pointer;
+	font-size: 16px;
 }
 .button-group button:hover {
-	background-color: black;
-	color: pink;
+	background-color: pink;
+	color: black;
 }
 .button-group button:disabled {
 	cursor: not-allowed;
-	background-color: pink;
+	background-color: white;
 	color: black;
 	opacity: 0.5;
 }
