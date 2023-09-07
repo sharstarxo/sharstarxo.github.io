@@ -48,6 +48,10 @@ h1 {
 	font-size: 4.25vw;
 }
 
+.about {
+	color: black;
+}
+
 p {
 	margin-top: 0px;
 	color: white;
@@ -84,5 +88,5 @@ ul {
 
 /* Tool tips */
 .tooltip {
-	
+
 }
