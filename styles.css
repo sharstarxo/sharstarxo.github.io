@@ -17,7 +17,7 @@
 	font-family: "Helvetica";
 	font-style: italic;
 	margin-top: 0px;
-	font-size: 22px;
+	font-size: 1.5vw;
 }
 
 /* Center contents of the Home page */
@@ -45,7 +45,7 @@ h1 {
 	font-family: "Monaco";
 	margin-bottom: 5px;
 	color: white;
-	font-size: 7vw;
+	font-size: 4.25vw;
 }
 
 p {
@@ -62,9 +62,12 @@ ul {
 /* Button style */
 .button-group button {
 	background-color: white;
-	border: 1px solid black;
+	/* border: 1px solid white; */
+	border-style: none;
 	color: black;
-	padding: 10px;
+	padding: 1vh; 
+	padding-inline: 1vw; 
+	margin: 0 0.2vw 0 0.2vw;
 	cursor: pointer;
 	font-size: 16px;
 }
@@ -77,4 +80,9 @@ ul {
 	background-color: white;
 	color: black;
 	opacity: 0.5;
+}
+
+/* Tool tips */
+.tooltip {
+	
 }
