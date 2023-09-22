@@ -51,7 +51,8 @@ h1 {
 	font-family: "Monaco";
 	margin-bottom: 5px;
 	color: white;
-	font-size: 4.25vw;
+	/* font-size: 4.25vw; */ 
+	font-size: 58px;
 }
 
 .about {
