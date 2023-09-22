@@ -23,7 +23,8 @@ html {
 	margin-top: 0px;
 	/* font-size: 1.5vw; */ 
 	/* font-size: 1.25rem; */ 
-	font-size: 20px;
+	/* font-size: 20px; */ 
+	font-size: 16pt;
 }
 
 /* Center contents of the Home page */
@@ -52,7 +53,7 @@ h1 {
 	margin-bottom: 5px;
 	color: white;
 	/* font-size: 4.25vw; */ 
-	font-size: 58px;
+	font-size: 48pt; 
 }
 
 .about {
