@@ -19,8 +19,8 @@ html {
 	font-family: "Helvetica";
 	font-style: italic;
 	margin-top: 0px;
-	/* font-size: 1.5vw; */ 
-	font-size: 1.25rem;
+	font-size: 1.5vw; 
+	/*font-size: 1.25rem; */
 }
 
 /* Center contents of the Home page */
